@@ -1,0 +1,92 @@
+[
+    {
+      "question": "Единица измерения для изменения размера элементов:",
+      "option1": "dp",
+      "option2": "px",
+      "option3": "pt",
+      "option4": "sp",
+      "answer": 3,
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Для чего используется система Gradle?",
+      "option1": "Для настройки интерфейса программы Android Studio",
+      "option2": "Для редактирования настроек проекта в режиме реального времени",
+      "option3": "Для компиляции, построения и упаковки приложений и библиотек",
+      "option4": "Нет правильного ответа",
+      "answer": 3,
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Какой метод запускает новый экземпляр компонента Activity?",
+      "option1": "startMainActivity()",
+      "option2": "startService()",
+      "option3": "startIntent()",
+      "option4": "startActivity()",
+      "answer": 4,
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Какое значение visibility нужно указать, чтобы View не отрисовывалась, но содержалась в разметке?",
+      "option1": "visible",
+      "option2": "invisible",
+      "option3": "hidden",
+      "option4": "gone",
+      "answer": 2,
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Какие веса нужно расставить на View внутри LinearLayout, чтобы они заняли 25%, 30% и 45% соответственно?",
+      "option1": "6, 7, 9",
+      "option2": "3, 4, 5",
+      "option3": "5, 6, 9",
+      "option4": "4, 5, 7",
+      "answer": 4,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "С помощью какого атрибута можно выравнивать дочерние элементы по центру?",
+      "option1": "gravity = “center”",
+      "option2": "layout_below = “center”",
+      "option3": "orientation = “center”",
+      "option4": "layout_gravity = “center”",
+      "answer": 1,
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Что значит атрибут hint в представлении EditText?",
+      "option1": "жирный шрифт",
+      "option2": "подчеркнутый текст",
+      "option3": "подсказка для ввода текста",
+      "option4": "определение текста",
+      "answer": 3,
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Назовите значение у атрибута inputType EditText, который автоматически исправляет вводимый текст:",
+      "option1": "textWordCorrect",
+      "option2": "textCorrect",
+      "option3": "textCapWords",
+      "option4": "textAutoCorrect",
+      "answer": 4,
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Назовите атрибут у ImageView, который определяет путь для загрузки изображений:",
+      "option1": "source",
+      "option2": "src",
+      "option3": "scr",
+      "option4": "path",
+      "answer": 2,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Какое значение layout_height нужно указать, чтобы View было таким же по ширине, что и контейнер, в котором он находится?",
+      "option1": "match_parent",
+      "option2": "wrap_content",
+      "option3": "350dp",
+      "option4": "wrap_parent",
+      "answer": 1,
+      "difficulty": "Hard"
+    }
+]

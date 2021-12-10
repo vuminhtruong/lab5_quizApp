@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab5_quizapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rule_quiz">Если вы ответите на каждый вопрос правильно, вы получите 10. За неправильный ответ баллы не начисляются, если вы не ответите в течение 30 секунд, баллы не начисляются.</string>
+    <string name="about_quizapp">Это приложение включает в себя 12 небольших тестов с уровнями: легкий, средний, сложный.</string>
+</resources>

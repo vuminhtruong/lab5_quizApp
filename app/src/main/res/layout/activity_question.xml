@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".controller.QuestionActivity">
+
+    <TextView
+        android:id="@+id/text_view_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_view_difficult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_score"
+        android:layout_marginTop="10dp"
+        android:text="Difficult:"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="00:30"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Question"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/image_view_android"
+        android:layout_below="@+id/text_view_question"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/android_question" />
+
+    <LinearLayout
+        android:id="@+id/ll_progress_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view_android"
+        android:layout_marginTop="10dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:indeterminate="false"
+            android:minHeight="50dp"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/text_view_questionCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="15sp"
+            tools:text="0/10" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/variant_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_progress_details"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Option 1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/variant_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/variant_1"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Option 2"/>
+
+    <TextView
+        android:id="@+id/variant_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/variant_2"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Option 3"/>
+
+    <TextView
+        android:id="@+id/variant_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/variant_3"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Option 4"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/variant_4"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:backgroundTint="#1E792C"
+        android:text="Submit" />
+
+</RelativeLayout>
